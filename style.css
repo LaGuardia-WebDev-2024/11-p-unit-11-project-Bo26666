@@ -2,11 +2,16 @@
 
 /* ======================== CSS Rule #1 */
 html {
-  background-color: white;
+  background-color: red;
   padding-left: 20px;
 }
 
 /* ======================== CSS Rule #2 */
 h1 {
   font-family: "Poetsen One", sans-serif;
-}
+  }
+
+
+h1{color:rgb(17, 109, 214)}
+  h3{color:rgb(161, 235, 14)}
+p{color:rgb(161, 235, 14)}
