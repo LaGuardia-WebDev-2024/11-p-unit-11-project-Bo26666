@@ -20,33 +20,62 @@ Select ONE Additional
     
 
     <meta charset="utf-8" />
-    <title>peak movies/shows</title>
+    <title>Unit 11 Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <button id="mem1-button">How I Met Your Mother</button>
-    <button id="mem2-button">A Bronx Tale</button>
-    <button id="mem3-button">Gilmore Girls</button>
+    <button id="mem1-button">Boy</button>
+    <button id="mem2-button">Forrest Gump</button>
+    <button id="mem3-button">Iron Claw</button>
     <h1>My Top Movies of <span>This Year</span></h1>
     <ol>
       <li>
-        <h3 id="mem1">How I Met Your Mother</h3>
-        <p>This is my all time favorite show. Its 9 seasons with about 24 episodes per season which I love because it quickly became my everything show. I watched it in the background while I was cooking, doing schoolwork, painting, etc, but its not some boring background show I would also watch it without distractions and be fully invested. Eventhough its such a long show it doesnt feel dragged out at all. evey episode is needed. All the characters are so loveable and you get to know all of them very well. In addition to all this, watching this show can give you great relationship as well as just regular life advice and eventhough its a comedy show you are able to feel deeper emotions while watching.</p>
+        <h3 id="mem1">Boy</h3>
+        <p>The story follows an 11-year-old Māori boy named Boy, who idolizes his absent father, imagining him as a heroic, Michael Jackson–like figure. Boy lives with his grandmother, younger brother Rocky (who believes he has magical powers), and cousins.</p>
+      <img class="Movie1"src=https://i2.wp.com/www.heyuguys.com/images/2017/10/boy_704_2_0.jpg?fit=704%2C396&ssl=1>;
+      
       </li>
 
       <li>
-        <h3 id="mem2"> A Bronx Tale</h3>
-        <p>This movie is so meaningful to me, not only because of the beautiful love story, but because it feels so close to me. Let me explain what I mean: this movie was filmed in the Bronx which is where I am from. watching this movie I see everything that has changed, stayed the same, and also the buses I take and very meaning spots to me. Its really cool to see the history of my own neighborhood and watch a meaninful love story in a setting I know and love so well. Secondly, The story involves two teenages of different racial backgrounds falling inlove, despite warnings from family and friends and critisism/looks from others. This is also imapactful to me because I am a mixed race child and hear the stories</p>
+        <h3 id="mem2">Forrest Gump</h3>
+        <p>Forrest Gump is a sweeping drama that follows the life of a kind-hearted man with a low IQ as he unknowingly influences major events in American history.</p>
+       <img class="Movie2"src=https://i.guim.co.uk/img/media/78eb1f6bd0f92d4d3cf19f5bddda1a902e2a6fcd/0_95_2371_1422/master/2371.jpg?width=1200&quality=85&auto=format&fit=max&s=e38a50cd354d94cc959a8a34f6536a7c>;
       </li>
 
       <li>
-        <h3 id="mem3">Gilmore Girls</h3>
-        <p>More about this memory</p>
+        <h3 id="mem3">The Iron Claw</h3>
+        <p>The story centers on Kevin Von Erich (played by Zac Efron), one of several brothers trained by their strict, controlling father, Fritz Von Erich. The brothers—Kevin, David, Kerry, and Mike—rise to fame in professional wrestling during the 1970s and 1980s, chasing championships and their father’s approval.</p>
+     <img class="Movie3"src=https://www.hollywoodreporter.com/wp-content/uploads/2023/10/The-Iron-Claw-Still-1.jpg>;
       </li>
     </ol>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
+
+$(".Movie1").hide();
+
+//Button 1
+        $("#mem1-button").click(function () {
+         $("#mem1").css("color", "purple");
+          $(".Movie1").show(2000);
+          
+        });
+
+//Button 2
+
+        $("#mem2-button").click(function () {
+         $("#mem2").css("color", "purple");
+          $(".Movie2").show(2000);
+          
+        });
+
+//Button 3
+
+        $("#mem3-button").click(function () {
+         $("#mem3").css("color", "purple");
+          $(".Movie3").show(2000);
+          
+        });
 
       // ======================== Button #1
       $("#mem1-button").click(function () {
