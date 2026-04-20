@@ -1,12 +1,12 @@
 <!-- Unit 11 Project
 Requirements
-[  ] $() Select by Element, ID AND Class 
-[  ] Use Three Different jQuery Methods 
-[  ] Add Five CSS Declarations
-[  ] Include Three Images
+[ x ] $() Select by Element, ID AND Class 
+[ x ] Use Three Different jQuery Methods 
+[ x ] Add Five CSS Declarations
+[ x ] Include Three Images
 
 Select ONE Additional 
-[ no ] Feature 1 - Use .hide() & .show() method
+[ yes ] Feature 1 - Use .hide() & .show() method
 [ no ] Feature 2 - Use .addClass() method
 [ no ] Feature 3 - Use .slideDown() method
 [ no ] Feature 4 - Use .mouseover() method
@@ -53,48 +53,39 @@ Select ONE Additional
     <script>
 
 $(".Movie1").hide();
+$(".Movie2").hide();
+$(".Movie3").hide();
+
+
 
 //Button 1
         $("#mem1-button").click(function () {
-         $("#mem1").css("color", "purple");
+         $("#mem1").css("color", "red");
           $(".Movie1").show(2000);
-          
+          $("html").css("background-color", "black");
+       $("p").text("I really loved this movie since it shows such a realistic portrayal of how you idolize your parents at a young age")
         });
 
 //Button 2
 
         $("#mem2-button").click(function () {
-         $("#mem2").css("color", "purple");
+         $("#mem2").css("color", "red");
           $(".Movie2").show(2000);
-          
+           $("html").css("background-color", "purple");
+           $("p").text("This movie is well written and has a great story that is very heartwarming and inspiring")
         });
 
 //Button 3
 
         $("#mem3-button").click(function () {
-         $("#mem3").css("color", "purple");
+         $("#mem3").css("color", "red");
           $(".Movie3").show(2000);
-          
+           $("html").css("background-color", "maroon");
+           $("p").text("This movie is a powerful portrayal of family dynamics and the impact of trauma across generations")
         });
 
-      // ======================== Button #1
-      $("#mem1-button").click(function () {
-        $("#mem1").css("color", "purple");
-      });
-
-      // ======================== Button #2
-      $("#mem2-button").click(function () {
-        $("#mem2").css("color", "blue");
-      });
-
-      // ======================== Button #3
-      $("#mem3-button").click(function () {
-        $("#mem3").css("color", "green");
-        $("#mem3").text("Coding Parties! 🎉");
-      });
 
 //h3 color
-$("h3").css("color, "green");
 
  </script>
 

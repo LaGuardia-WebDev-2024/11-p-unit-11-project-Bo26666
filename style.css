@@ -9,9 +9,10 @@ html {
 /* ======================== CSS Rule #2 */
 h1 {
   font-family: "Poetsen One", sans-serif;
-  }
+  color:rgb(42, 59, 209)
+}
 
+li{color:rgb(161, 235, 14)}
 
-h1{color:rgb(42, 59, 209)}
   h3{color:rgb(161, 235, 14)}
 p{color:rgb(161, 235, 14)}
